@@ -35,9 +35,13 @@ function App() {
         console.log(i);
     }
 
+
+    
     return (
+        <div>
+
+        <h1><u>WELCOME TO QUIZ - APP </u></h1>
         <div className='content-div'>
-            <h1><u>QUIZZ</u></h1>
             <Question question={Data[select].question} />
             {
                 Data[select].option.map((option,i) =>{
@@ -48,7 +52,8 @@ function App() {
             }
             <div className='click-button'>
             <button className='back-click' onClick={backClick}>Back</button>
-            <button key={select} onClick={handleClick}>Next</button>
+            <button className='next-click' key={select} onClick={handleClick}>Next</button>
+            </div>
             </div>
             </div>
 
