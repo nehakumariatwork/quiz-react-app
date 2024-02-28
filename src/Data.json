@@ -1,0 +1,32 @@
+[
+    {
+        "question": "(A) How many days in a weak?",
+        "option": [
+            "(a) 3",
+            "(b) 8",
+            "(c) 10",
+            "(d) 7"
+        ],
+        "answer": 3
+    },
+    {
+        "question": "(B)How many month in a year?",
+        "option": [
+            "(a) 12",
+            "(b) 4",
+            "(c) 10",
+            "(d) 17"
+        ],
+        "answer": 0
+    },
+    {
+        "question": "(C) How many days in a leapyear?",
+        "option": [
+            "(a)299",
+            "(b)356",
+            "(c)366",
+            "(d)365"
+        ],
+        "answer": 2
+    }
+]

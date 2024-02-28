@@ -1,0 +1,51 @@
+body{
+  background-color: turquoise;
+
+}
+.content-div{
+  border-radius: 10px;
+  height: 70%;
+  width: 300px;
+  background-color:silver;
+  box-shadow: 0 5px 10px 10px;
+  align-items: center;
+
+
+}
+
+button{
+  margin-top: 20px; 
+ background-color: yellow;
+ color:ghostwhite;
+ text-align: center;
+ border-radius: 12px;
+ width: 60px;
+ 
+}
+.back-click{
+  margin-left: 4px;
+}
+.question{
+  height: auto;
+  width: 80%;
+  border: 1px solid;
+  padding: 5px;
+  background-color:gray;
+  border-radius: 20px;
+}
+h1{
+  text-align: center;
+}
+
+.click-button{
+  display: flex;
+  justify-content: space-between;
+}
+
+.correctAnswer{
+  background-color: green;
+}
+.incorrectAnswer{
+  background-color: red;
+}
+
